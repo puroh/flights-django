@@ -18,7 +18,7 @@ class ItinerarySerializer(ModelSerializer):
         fields = [
             "id",
             "price",
-            "coint",
+            "currency",
             "agent",
             "agent_rating",
             "created_at",
@@ -37,7 +37,7 @@ class ItinerariesBasicSerializer(ModelSerializer):
         fields = [
             "id",
             "price",
-            "coint",
+            "currency",
             "agent",
             "agent_rating",
             "created_at",

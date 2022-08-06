@@ -7,7 +7,7 @@ from legs.models import Leg
 class Itinerary(MixinComunFields):
 
     price = models.DecimalField(max_digits=6, decimal_places=2)
-    coint = models.CharField(max_length=16)
+    currency = models.CharField(max_length=16)
     agent = models.CharField(max_length=32)
     agent_rating = models.DecimalField(max_digits=6, decimal_places=1)
     legs = models.ManyToManyField(
