@@ -187,11 +187,10 @@ class Common(Configuration):
         "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
     }
 
-
-SPECTACULAR_SETTINGS = {
-    "TITLE": "Flight high",
-    "DESCRIPTION": "Manage reservations to fly in airlines",
-    "VERSION": "1.0.0",
-    "SERVE_INCLUDE_SCHEMA": False,
-    # OTHER SETTINGS
-}
+    SPECTACULAR_SETTINGS = {
+        "TITLE": "Flight high",
+        "DESCRIPTION": "Manage reservations to fly in airlines",
+        "VERSION": "1.0.0",
+        "SERVE_INCLUDE_SCHEMA": False,
+        # OTHER SETTINGS
+    }
