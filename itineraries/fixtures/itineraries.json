@@ -1,1 +1,114 @@
-[]
+[
+    {
+        "model": "itineraries.itinerary",
+        "pk": "19da2fe7-f133-42b4-ac19-0dfd56c59466",
+        "fields": {
+            "created_at": "2022-08-06T23:40:21.480Z",
+            "updated_at": "2022-08-06T23:40:21.480Z",
+            "price": "115.00",
+            "currency": "£",
+            "agent": "British Airways",
+            "agent_rating": "9.3",
+            "legs": [
+                "8a8c5181-eaf2-4b56-97dc-43b6ee29eeb1",
+                "212e5f23-c0b6-44c4-b694-2b27b7f4ac33"
+            ]
+        }
+    },
+    {
+        "model": "itineraries.itinerary",
+        "pk": "b0056cd0-65ee-4737-b4a2-bd89c566ab83",
+        "fields": {
+            "created_at": "2022-08-06T06:15:50.214Z",
+            "updated_at": "2022-08-06T06:15:50.214Z",
+            "price": "35.00",
+            "currency": "£",
+            "agent": "Wizzair.com",
+            "agent_rating": "9.1",
+            "legs": [
+                "a6dc69e3-9418-4a37-bb80-38ae4153e5ee",
+                "3a7a0831-8b23-494a-afcc-5f34c5503a5f"
+            ]
+        }
+    },
+    {
+        "model": "itineraries.itinerary",
+        "pk": "b463eb09-2909-455b-8ca0-3d90ef24f691",
+        "fields": {
+            "created_at": "2022-08-06T06:15:50.214Z",
+            "updated_at": "2022-08-06T06:15:50.214Z",
+            "price": "90.00",
+            "currency": "£",
+            "agent": "Lufthansa",
+            "agent_rating": "8.9",
+            "legs": [
+                "b5eb565f-346c-4809-8d7f-d2f0eab8ffc6",
+                "0e92c023-c280-4402-ae4c-51e5babc7d43"
+            ]
+        }
+    },
+    {
+        "model": "itineraries.itinerary",
+        "pk": "7c602ed3-d7d9-49e4-af34-db1aa9396fc7",
+        "fields": {
+            "created_at": "2022-08-06T06:15:50.214Z",
+            "updated_at": "2022-08-06T06:15:50.214Z",
+            "price": "105.00",
+            "currency": "£",
+            "agent": "Trip.com",
+            "agent_rating": "9.5",
+            "legs": [
+                "9ea510b3-3a79-4dd4-89f0-2d25e5f6682a",
+                "8a8c5181-eaf2-4b56-97dc-43b6ee29eeb1"
+            ]
+        }
+    },
+    {
+        "model": "itineraries.itinerary",
+        "pk": "8ce834e4-94d0-4c8b-ae44-aafb08d583c1",
+        "fields": {
+            "created_at": "2022-08-06T06:15:50.214Z",
+            "updated_at": "2022-08-06T06:15:50.214Z",
+            "price": "195.00",
+            "currency": "£",
+            "agent": "Trip.com",
+            "agent_rating": "9.5",
+            "legs": [
+                "212e5f23-c0b6-44c4-b694-2b27b7f4ac33",
+                "3a7a0831-8b23-494a-afcc-5f34c5503a5f"
+            ]
+        }
+    },
+    {
+        "model": "itineraries.itinerary",
+        "pk": "5fccdac8-4d97-4766-aa94-170a6b5836d1",
+        "fields": {
+            "created_at": "2022-08-05T06:15:50.214Z",
+            "updated_at": "2022-08-05T06:15:50.214Z",
+            "price": "93.00",
+            "currency": "£",
+            "agent": "Kiwi.com",
+            "agent_rating": "8.0",
+            "legs": [
+                "9ea510b3-3a79-4dd4-89f0-2d25e5f6682a",
+                "b5eb565f-346c-4809-8d7f-d2f0eab8ffc6"
+            ]
+        }
+    },
+    {
+        "model": "itineraries.itinerary",
+        "pk": "10160f5e-a995-4903-b2c8-3603f5d2bf4d",
+        "fields": {
+            "created_at": "2022-08-05T06:15:50.214Z",
+            "updated_at": "2022-08-05T06:15:50.214Z",
+            "price": "42.00",
+            "currency": "£",
+            "agent": "CheapFligths",
+            "agent_rating": "10.0",
+            "legs": [
+                "0e92c023-c280-4402-ae4c-51e5babc7d43",
+                "a6dc69e3-9418-4a37-bb80-38ae4153e5ee"
+            ]
+        }
+    }
+]
