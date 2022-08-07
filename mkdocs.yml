@@ -12,3 +12,4 @@ nav:
       - Users: "api/users.md"
       - Legs: "api/leg.md"
       - Itineraries: "api/itinerary.md"
+      - Itineraries-legs: "api/itinerary-leg.md"
