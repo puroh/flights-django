@@ -22,3 +22,17 @@ Create a superuser to login to the admin:
 ```bash
 docker-compose run --rm web ./manage.py createsuperuser
 ```
+
+# Load data in Data base
+
+For charged the data in the data base, first run this code for load data legs
+
+```bash
+docker-compose run --rm web ./manage.py loaddata legs.json
+```
+
+And them load itineraries data
+
+```bash
+docker-compose run --rm web ./manage.py loaddata itineraries.json
+```
